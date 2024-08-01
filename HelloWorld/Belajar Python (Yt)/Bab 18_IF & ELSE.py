@@ -1,29 +1,27 @@
 # IF & ELSE Statements (percabangan)
 
 # IF STATEMENTS
-# Sesuai nama
+# Sesuai Nama
 nama = input('Masukkan nama Anda: ')
 print(f'Nama Anda adalah: {nama}')
 
 if nama == "Sakura": print('Jangan gelut terus, bro!!')
-print(f'Halo {nama}!!')
+print(f'Halo {nama}!!\n')
 
-print()
-# Tidak sesuai nama
-nama = input('Masukkan nama Anda: ')
+# Tidak Sesuai Nama
+nama = input('Masukkan nama Anda: ') # --> Masukkan nama selain "Sakura"
 print(f'Nama Anda adalah: {nama}')
 
-if nama == "Sakura": print('Jangan gelut terus, bro!!')
-print(f'Halo {nama}!!')
+if nama == "Sakura": print('Jangan gelut terus, bro!!') # --> outputnya tidak akan mem-print 'Jangan gelut terus, bro!!'
+print(f'Halo {nama}!!\n') # Output hanya akan mem-print baris ini saja
 
-print()
 
-# IF indentation
+# IF INDENTATION
 nama = input('Masukkan nama Anda: ')
 if nama == "Sakura":
     print('YOU\'RE COOL!!')
     print('KEREN ABIEZZZZ!!')
-print(f'Oke, Terima kasih {nama}. Semoga harimu menyenangkan!')
+print(f'Oke, Terima kasih {nama}. Semoga hari mu menyenangkan!')
 
 
 # ELSE STATEMENTS
