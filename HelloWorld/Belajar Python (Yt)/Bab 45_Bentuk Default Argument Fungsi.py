@@ -9,7 +9,8 @@ os.system('cls')
 
 # def fungsi(argument = nilai default nya):
         # isi fungsi
-# mempermudah penulisan
+
+# gunanya: mempermudah penulisan
 
 
 
