@@ -5,16 +5,16 @@
 # Contoh 1
 nama = 'Haruka'
 umur = 17
-Contoh_format = f'Biodata: {nama}, {umur}'
-print(Contoh_format)
+contoh_format = f'Biodata: {nama}, {umur}'
+print(contoh_format)
 
 # Contoh 2
 print(f'Biodat: Haruka, {umur}')
 print(f'Biodata: {nama}, {umur}')
 
 # Contoh 3: Boolean
-Boolean = True
-print(f'Nilai Boolean: {Boolean}')
+boolean = True
+print(f'Nilai Boolean: {boolean}')
 
 # Format Angka
 
